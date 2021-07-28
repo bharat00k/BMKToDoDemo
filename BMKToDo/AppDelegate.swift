@@ -8,10 +8,15 @@
 import UIKit
 import CoreData
 
-@main
+let appDelegate = UIApplication.shared.delegate as! AppDelegate
+let globalContext = appDelegate.persistentContainer.viewContext
+
+//@main // In xcode 12
+@UIApplicationMain //In xcode 11
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         return true
@@ -30,9 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
+    
 
     // MARK: - Core Data Saving support
-
     func saveContext () {
         let context = persistentContainer.viewContext
         if context.hasChanges {

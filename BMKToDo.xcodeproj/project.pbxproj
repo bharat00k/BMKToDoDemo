@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155D3B2926B15297004EF9A7 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D3B2826B15297004EF9A7 /* TodoListViewModel.swift */; };
+		155D3B2B26B16080004EF9A7 /* TodoCoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D3B2A26B16080004EF9A7 /* TodoCoreDataModel.swift */; };
+		671180DC26B07E780034FD96 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671180DB26B07E780034FD96 /* ToDoListViewController.swift */; };
+		671180E026B07F720034FD96 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671180DF26B07F720034FD96 /* ToDoCell.swift */; };
+		671180E526B08B420034FD96 /* ToDoHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671180E426B08B420034FD96 /* ToDoHeaderCell.swift */; };
+		671180E826B091270034FD96 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671180E726B091270034FD96 /* TaskViewController.swift */; };
 		6756E9B726B0734400CE5975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6756E9B626B0734400CE5975 /* AppDelegate.swift */; };
 		6756E9BE26B0734400CE5975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6756E9BC26B0734400CE5975 /* Main.storyboard */; };
 		6756E9C126B0734400CE5975 /* BMKToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6756E9BF26B0734400CE5975 /* BMKToDo.xcdatamodeld */; };
 		6756E9C326B0735900CE5975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6756E9C226B0735900CE5975 /* Assets.xcassets */; };
 		6756E9C626B0735900CE5975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6756E9C426B0735900CE5975 /* LaunchScreen.storyboard */; };
+		675E63F026B0B1DC00AE9A56 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675E63EF26B0B1DC00AE9A56 /* SectionModel.swift */; };
+		67E38DEA26B191CA008FCD65 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E38DE926B191CA008FCD65 /* TodoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		155D3B2826B15297004EF9A7 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		155D3B2A26B16080004EF9A7 /* TodoCoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCoreDataModel.swift; sourceTree = "<group>"; };
+		671180DB26B07E780034FD96 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		671180DF26B07F720034FD96 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		671180E426B08B420034FD96 /* ToDoHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoHeaderCell.swift; sourceTree = "<group>"; };
+		671180E726B091270034FD96 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		6756E9B326B0734400CE5975 /* BMKToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMKToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6756E9B626B0734400CE5975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6756E9BD26B0734400CE5975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		6756E9C226B0735900CE5975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6756E9C526B0735900CE5975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6756E9C726B0735900CE5975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675E63EF26B0B1DC00AE9A56 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		67E38DE926B191CA008FCD65 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155D3B2726B15098004EF9A7 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				155D3B2826B15297004EF9A7 /* TodoListViewModel.swift */,
+				67E38DE926B191CA008FCD65 /* TodoViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		671180D926B07E3F0034FD96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				671180DB26B07E780034FD96 /* ToDoListViewController.swift */,
+				671180E726B091270034FD96 /* TaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		671180DE26B07F570034FD96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				671180DF26B07F720034FD96 /* ToDoCell.swift */,
+				671180E426B08B420034FD96 /* ToDoHeaderCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6756E9AA26B0734400CE5975 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +97,10 @@
 		6756E9B526B0734400CE5975 /* BMKToDo */ = {
 			isa = PBXGroup;
 			children = (
+				155D3B2726B15098004EF9A7 /* viewModels */,
+				675E63EE26B0B1A400AE9A56 /* Model */,
+				671180DE26B07F570034FD96 /* Views */,
+				671180D926B07E3F0034FD96 /* Controllers */,
 				6756E9B626B0734400CE5975 /* AppDelegate.swift */,
 				6756E9BC26B0734400CE5975 /* Main.storyboard */,
 				6756E9C226B0735900CE5975 /* Assets.xcassets */,
@@ -62,6 +109,15 @@
 				6756E9BF26B0734400CE5975 /* BMKToDo.xcdatamodeld */,
 			);
 			path = BMKToDo;
+			sourceTree = "<group>";
+		};
+		675E63EE26B0B1A400AE9A56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				675E63EF26B0B1DC00AE9A56 /* SectionModel.swift */,
+				155D3B2A26B16080004EF9A7 /* TodoCoreDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155D3B2926B15297004EF9A7 /* TodoListViewModel.swift in Sources */,
+				155D3B2B26B16080004EF9A7 /* TodoCoreDataModel.swift in Sources */,
 				6756E9C126B0734400CE5975 /* BMKToDo.xcdatamodeld in Sources */,
+				671180DC26B07E780034FD96 /* ToDoListViewController.swift in Sources */,
+				671180E526B08B420034FD96 /* ToDoHeaderCell.swift in Sources */,
 				6756E9B726B0734400CE5975 /* AppDelegate.swift in Sources */,
+				671180E026B07F720034FD96 /* ToDoCell.swift in Sources */,
+				675E63F026B0B1DC00AE9A56 /* SectionModel.swift in Sources */,
+				67E38DEA26B191CA008FCD65 /* TodoViewModel.swift in Sources */,
+				671180E826B091270034FD96 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +346,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 893E3T5472;
 				INFOPLIST_FILE = BMKToDo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -291,9 +355,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.5nance.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovage.5nance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = 5nanceHomeDevCert;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,8 +368,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 893E3T5472;
 				INFOPLIST_FILE = BMKToDo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -313,9 +377,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.5nance.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovage.5nance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = 5nanceHomeDevCert;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
