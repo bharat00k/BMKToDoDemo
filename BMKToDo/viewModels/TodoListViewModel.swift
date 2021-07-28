@@ -17,7 +17,6 @@ class TodoListViewModel {
     
     init() {
         todoSectionDataList = [SectionModel]()
-//        todoSectionDataList = refershTodoList()
     }
     
     func refershTodoList() ->  [SectionModel] {
