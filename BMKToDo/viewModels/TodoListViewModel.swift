@@ -8,9 +8,6 @@
 
 import Foundation
 
-
-
-
 class TodoListViewModel {
     
     var todoSectionDataList: [SectionModel]
